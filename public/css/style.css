@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #141414;
+	color: white;
+}
+
+.search {
+	padding: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.search input {
+	padding: 8px 2px;
+	outline: none;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid gray;
+	font-size: 18px;
+	color: #5f5f5f;
+	transition: 200ms;
+}
+.search input:focus {
+	border: none;
+	border-bottom: 2px solid dodgerblue;
+	transition: 200ms;
+	transform-origin: left;
+	color: rgb(54, 151, 248);
+}
+.search button {
+	padding: 8px 18px;
+	background-color: dodgerblue;
+	/* border: none; */
+	outline: none;
+	border: 3.2px solid dodgerblue;
+	cursor: pointer;
+	color: white;
+	font-weight: 700;
+}
+
+.weather {
+	padding: 18px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.icon img {
+	margin-top: 10px;
+	border-radius: 500px;
+}
+
+.location {
+	font-size: 14px;
+	margin-top: 4px;
+	margin-bottom: 5px;
+	max-width: 300px;
+}
+
+.temp {
+	font-size: 32px;
+	color: rgb(37, 139, 223);
+}
