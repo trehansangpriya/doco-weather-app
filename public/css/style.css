@@ -83,3 +83,8 @@ body {
 	font-size: 32px;
 	color: rgb(37, 139, 223);
 }
+.footer {
+	position: absolute;
+	bottom: 50px;
+	color: #cfcfcf;
+}
